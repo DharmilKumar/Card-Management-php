@@ -34,15 +34,15 @@
             <div class="card-body">
                     <div class="mb-3">
                         <label name="label" value="aweh"></label>
-                        <input type="hidden" name="productId'.$i.'" value="'.$key['productId'].'">
-                        <input type="hidden" name="id'.$i.'" value="'.$key['id'].'">
+                        <input type="hidden" name="productId' . $i . '" value="' . $key['productId'] . '">
+                        <input type="hidden" name="id' . $i . '" value="' . $key['id'] . '">
                         Product Name: <input type="text" value="' . $key['productName'] . '" class="form-control"  name="name' . $i . '" disabled>
-                        Product Name: <input type="hidden" value="' . $key['productName'] . '" class="form-control"  name="name' . $i . '">
+                         <input type="hidden" value="' . $key['productName'] . '" class="form-control"  name="name' . $i . '">
                         Product Price: <input type="text" value="₹' . $key['productPrice'] . '" class="form-control" name="price' . $i . '" disabled>
-                        Product Price: <input type="hidden" value="' . $key['productPrice'] . '" class="form-control" name="price' . $i . '">
+                        <input type="hidden" value="' . $key['productPrice'] . '" class="form-control" name="price' . $i . '">
                         Product Quantity: <input type="text" value="' . $key['productQ'] . '" class="form-control"  name="q' . $i . '" disabled>
-                        Product Quantity: <input type="hidden" value="' . $key['productQ'] . '" class="form-control"  name="q' . $i . '" >
-                        Product Quantity: <input type="hidden" value="' . $key['productImagePath'] . '" class="form-control" name="imgPath' . $i . '">
+                    <input type="hidden" value="' . $key['productQ'] . '" class="form-control"  name="q' . $i . '" >
+                     <input type="hidden" value="' . $key['productImagePath'] . '" class="form-control" name="imgPath' . $i . '">
                         <img src="' . $key['productImagePath'] . '" alt="" width="100px">
                     </div>
                 </div>
